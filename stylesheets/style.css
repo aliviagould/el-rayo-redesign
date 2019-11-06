@@ -1,0 +1,219 @@
+
+/* #00374D -- dark navy
+#FABE2D -- yellow
+#E7903D -- orange
+#68C8D2 -- lighter teal
+#36C0CC -- teal*/
+
+
+
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    color:  #00374D;
+}
+
+h1, h2, h3, h4, h5, nav {
+    font-family: 'Baloo Bhaijaan', sans-serif;
+}
+
+h5 {
+    margin-bottom: 0;
+}
+
+.rounded {
+    border-radius: 3px;
+}
+
+.navbar {
+ color: white;
+}
+
+.clear {
+    transition: .5s;
+}
+
+.blue {
+    background-color: #00374D;
+}
+
+.navbar .custom-toggler .navbar-toggler-icon {
+    color: white;
+}
+
+.navbar .nav-item .nav-link:hover, .navbar .navbar-brand:hover {
+    color:  #FABE2D;
+    }
+
+.jumbotron{
+    background-image: linear-gradient(rgba(35,35,35,.5), rgba(35,35,35,.5)), url("../images/el-rayo-food-spread.jpg");
+    background-color: #36C0CC;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-position: top;
+   }
+
+.main-logo {
+    width: 40vw;
+}
+
+.square-image {
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+}
+.square-image img{
+    position: absolute;
+}
+
+ion-icon {
+    display: inline-block;
+    padding-top: 4px;
+    padding-right: 10px;
+    /* put this in as bototstrap?? */
+}
+
+.intro {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    display: none;
+}
+
+footer {
+    background-color: #00374D;
+    color: white;
+}
+
+/* ==============================================
+PORTLAND/SCARBOROUGH
+============================================== */
+
+.title {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #ffffff;
+}
+
+.title-portland {
+    background-image: linear-gradient(rgba(35,35,35,.7), rgba(35,35,35,.7)), url("../images/drinks-on-table.jpg");
+}
+
+.title-scarborough {
+    background-image: linear-gradient(rgba(35,35,35,.7), rgba(35,35,35,.7)), url("../images/outdoor-seating.jpg");
+}
+
+.title-about {
+    background-image: linear-gradient(rgba(35,35,35,.7), rgba(35,35,35,.7)), url("../images/el-rayo-bar-side.jpg");
+    
+}
+
+.small-logo {
+    width: 20vw;
+    display: inline-block;
+}
+
+.small-logo img {
+    width: 100%;
+}
+
+.specials {
+    background-color: #36C0CC;
+    color: #ffffff;
+}
+
+.circle {
+    background: #FABE2D;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.location-and-hours {
+    background: #00374D;
+    color: white;
+}
+
+/* .location-and-hours p {
+    font-size: 1.2rem;
+} */
+
+.map-container {
+    width: 100%;
+    height: 400px;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+.menu-type {
+    display: none;
+}
+
+.menu-title {
+    text-align: center;
+    padding: 20px;
+    background: #36C0CC;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.menu-section {
+    background-color: #36C0CC; 
+    padding: 20px;
+    margin: 10px;
+    color: #00374D;
+}
+
+.meal {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+
+.description {
+    font-size: .9rem;
+    margin-bottom: 0;
+}
+
+.email-list {
+    background-color: #FABE2D;
+    border-radius: 5px;
+}
+
+.reviews {
+    background-color: #FABE2D;
+    border-radius: 5px;
+}
+
+footer p {
+    font-size: .8rem;
+    line-height: 1rem;
+    margin: .25rem;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.scroll {
+    background:#00374D;
+}
+
+.specials p {
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+

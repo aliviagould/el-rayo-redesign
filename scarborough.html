@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan&display=swap" rel="stylesheet">
+ 
+  <!-- JS and Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <link rel="stylesheet" href="stylesheets/media.css">
+  
+    <!-- OpenLayers map API -->
+  <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.0.1/build/ol.js"></script>
+
+  
+
+
+  <title>Scarborough - El Rayo Taqueria</title>
+
+</head>
+
+<body>
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top clear">
+                <div class="container">
+                        <a class="navbar-brand" href="about.html">El Rayo </a>
+        
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav ml-auto">
+                
+                
+                                <li class="nav-item dropdown pl-2">
+                                    <a class="nav-link dropdown-toggle active" href="portland.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Portland
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="portland.html">About</a>
+                                        <a class="dropdown-item" href="portland.html#portland-hours">Hours & Location</a>
+                                        <a class="dropdown-item" href="portland.html#portland-menus">Menus</a>
+                                    </div>
+                                </li>
+                
+                                <li class="nav-item dropdown pl-2">
+                                    <a class="nav-link dropdown-toggle active" href="scarborough.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            Scarborough
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="scarborough.html">About</a>
+                                        <a class="dropdown-item" href="scarborough.html#scarborough-hours">Hours & Location</a>
+                                        <a class="dropdown-item" href="scarborough.html#scarborough-menus">Menus</a>
+                                    </div>
+                                </li>
+                
+                                <li class="nav-item active pl-2">
+                                        <a class="nav-link" href="#">Gift Cards <span class="sr-only">(current)</span></a>
+                                </li>
+                
+                                <!-- <li class="nav-item active pl-2">
+                                    <a class="nav-link" href="#"> Join the Team <span class="sr-only">(current)</span></a>
+                                </li> -->
+                
+                                <li class="nav-item active pl-2">
+                                    <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+                                </li>
+                
+                
+                            </ul>
+                        </div>
+                </div>
+            </nav>
+    <div class="title title-scarborough py-5 text-center">
+        <div class="small-logo">
+            <img src="images/el_rayo_logo.png" alt="el rayo logo">
+        </div>
+        <h1 text="text-uppercase">SCARBOROUGH</h1>
+    </div>
+
+
+    <div class="container my-3">
+        <div class="card-deck d-flex flex-column flex-md-row">
+
+            <div class="card d-flex flex-row flex-md-column px-0 my-2">
+                <div class="col-6 col-md px-0">
+                    <img src="images/sign.jpg" class="card-img-top" alt="el rayo sign outside">
+                </div>
+                <div class="card-body col-6 col-md">
+                    <h5 class="card-title">Check us Out!</h5>
+                    <p class="card-text">Open for lunch and dinner every day!</p>
+                    <p class="card-text">Eat in or take out.</p>
+                    <p class="card-text">Thirsty? Full bar and fun cocktails!</p>
+                </div>
+            </div>
+
+            <div class="card d-flex flex-row flex-md-column px-0 my-2">
+                <div class="col-6 col-md px-0">
+                    <img src="images/drink-scarborough.jpg" class="card-img-top" alt="drink with garnish outside">
+                </div>
+                <div class="card-body col-6 col-md">
+                    <h5 class="card-title">Happy Hour</h5>
+                    <p class="card-text"> Every Monday thru Friday from 4-6pm </p>
+                    <p class="card-text">$5 House Margaritas, $2 Sol, Tecate & Pacifico beers!</p>
+                </div>
+            </div>
+
+
+            <div class="card d-flex flex-row flex-md-column px-0 my-2">
+                <div class="col-6 col-md px-0">
+                    <img src="images/fish-tacos.jpg" class="card-img-top" alt="fish tacos">
+                </div>
+                <div class="card-body col-6 col-md">
+                    <h5 class="card-title">Always something new!</h5>
+                    <p class="card-text"> Come in to try out our delicious limited time specials. </p>
+                    <p class="card-text"> Check out our Facebook to see what's cooking. </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <div class="specials my-3">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row  align-items-md-start pt-3 pb-4 text-md-center">
+
+                <div class="col-md align-self-center d-flex flex-row flex-md-column text-center">
+                    <h3>Daily Specials</h3>
+                </div>
+
+                <div class="col-md d-flex flex-row flex-md-column align-items-center">
+                    <div class="circle m-3">
+                            <h1>M</h1>
+                    </div>
+                    <div>
+                        <h5 class="text-uppercase">Mondays</h5>
+                        <p>Any Burrito for just $6.95!</p>
+                    </div> 
+                </div>
+
+                <div class="col-md d-flex flex-row flex-md-column align-items-center">
+                    <div class="circle m-3">
+                            <h1>T</h1>
+                    </div>
+                    <div>
+                        <h5 class="text-uppercase">Tuesdays</h5>
+                        <p>Tacos only $2.50 each!<br>(Dine-in only)</p>
+                    </div>
+                </div>
+
+                <div class="col-md d-flex flex-row flex-md-column align-items-center">
+                    <div class="circle m-3">
+                            <h1>W</h1>
+                    </div>
+                    <div>
+                        <h5 class="text-uppercase">Wednesdays</h5>
+                        <p> $6.95 Rice & Bean Bowls all day! </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+ 
+
+    <div class="container" id="scarborough-hours">
+            <div class="row mb-3">
+                <div class="location-and-hours col-md p-4 m-3 rounded">
+                    <h3 class="pb-3">Location & Hours</h3>
+                    <h5 class="text-uppercase"> Address</h5>
+                    <p>245 US Route One <br> Scarborough, Maine</p>
+                    <h5 class="text-uppercase">Call for info & take-out</h5>
+                    <p>207-883-TACO </p>
+                    <h5 class="text-uppercase">Hours</h5>
+                    <p>Everyday from 11am-9pm</p>
+                </div>
+                <div class="map-container col-md m-3 p-0">
+                        <div id="map" class="map">
+                            </div>
+                            <script>
+                                var map = new ol.Map({
+                                    target: 'map',
+                                    layers: [
+                                        new ol.layer.Tile({
+                                            source: new ol.source.OSM()
+                                        })
+                                    ],
+                                    view: new ol.View({
+                                        center: ol.proj.fromLonLat([43.6566009,70.257775]),
+                                        zoom: 4
+                                    })
+                                });
+                            </script>
+    
+                </div>
+    
+            </div>
+        </div>
+
+
+
+    <div class="menus m-3" id="scarborough-menus">
+    <div class="container">
+        <h3 class="menu-title rounded">Scarborough Full Menu<ion-icon name="arrow-dropdown"></ion-icon></h3>
+            <div class="menu-type">
+                <div class="menu-section">
+                    <h5 class="menu-section-title">ANTOJITOS</h5>
+                    <p class="meal">GOLDEN JET PINEAPPLE – 3.95</p>
+                    <p class="description">on a stick dusted with chile powder, salt & lime</p>
+                    <p class="meal">MEXICO CITY STYLE CORN ON THE COB – 4.95</p>
+                    <p class="description">basted with chipotle mayo & dusted with cotija cheese</p>
+                    <p class="meal">FRIED PLANTAINS – 5.95</p>
+                    <p class="description">with chipotle mayo</p>
+                    <p class="meal">QUESO DIP – 6.95</p>
+                    <p class="description">warm cheese dip with rajas topped with diced pickled jalapeños and served with corn chips</p>
+                    <p class="description">w/ housemade chorizo – 7.95</p>
+                    <p class="meal">PAPAS FRITAS – 4.95</p>
+                    <p class="description">fried Maine potatoes drizzled with garlic aioli†</p>
+                    <p class="meal">CHICKEN TAQUITOS – 8.95</p>
+                    <p class="description">three corn tortillas filled with rajas, jack cheese & chicken, rolled and fried. Topped with lettuce, crema, cotija, pico de gallo & avocado purée</p>
+                </div>
+                <div class="menu-section">
+                    <h5 class="menu-section-title">TACOS</h5>
+                    <p class="description">all tacos served on corn tortillas warmed on the griddle and garnished with fresh cilantro</p>
+                    <p class="meal">PESCADO – 4.95</p>
+                    <p class="description">grilled achiote seasoned fish fillet, sliced avocado, chipotle mayo & crunchy veggie slaw</p>
+                    <p class="meal">AL CARBON – 4.50</p>
+                    <p class="description"> char-grilled chicken with pico de gallo salsa, cotija cheese, shredded lettuce & radish</p>
+                    <p class="meal">BBQ PULLED PORK – 4.50</p>
+                    <p class="description">with coleslaw, cotija cheese & red onion escabeche</p>
+                    <p class="meal">TACO PLATE – 11.95</p>
+                    <p class="description">choice of any two tacos served with rice & organic black beans topped with crema, cotija & cilantro</p>
+                </div>
+                <div class="menu-section">
+                    <h5 class="menu-section-title">BURRITOS</h5>
+                    <p class="description">served on a flour tortilla</p>
+                    <p class="meal">POLLO – 9.95</p>
+                    <p class="description">citrus & cumin marinated
+                            chicken, rice, organic black
+                            beans, monterey jack
+                            cheese, housemade crema
+                            fresca, guacamole & smokey
+                            chipotle tomato sauce</p>
+                    <p class="meal">YUCATÁN – 10.95</p>
+                    <p class="description"> grilled achiote seasoned
+                            fish fillet, rice, monterey
+                            jack cheese, crunchy veggie
+                            slaw, avocado, our famous
+                            chipotle mayo & cilantro</p>
+                    <p class="meal">CARNITAS – 9.95</p>
+                    <p class="description">slow braised pork, rice,
+                            organic black beans,
+                            monterey jack cheese,
+                            housemade crema fresca,
+                            rajas & ranchero sauce</p>
+                </div>
+                <div class="menu-section">
+                    <h5 class="menu-section-title">ENSALADAS</h5>
+                    <p class="meal">FIESTA SALAD – 9.95</p>
+                    <p class="description"> romaine lettuce, red onion escabeche, jicama, sweet
+                            peppers, corn, tomatoes, cucumbers, cilantro, pepitas &
+                            radish. Garnished with</p>
+                    <p class="meal">FIESTA SALAD – 9.95</p>
+                    <p class="description">romaine lettuce, red onion escabeche, jicama, sweet
+                            peppers, corn, tomatoes, cucumbers, cilantro, pepitas &
+                            radish. Garnished withe</p>
+                    <p class="meal">TURN YOUR SALAD INTO A MEAL</p>
+                    <p class="description">w/ grilled chicken, grilled steak,
+                            fish or bbq pulled pork add 4.00
+                            w/ fried shrimp add 6.00</p>
+                </div>
+
+
+                <!-- <h5>RICE & BEAN BOWLS</h5>
+                <p>topped with housemade crema fresca, cotija cheese,
+                        cilantro, shredded lettuce & radish</p>
+                <p>BISTEC – 10.95
+                        grilled steak with rajas
+                        & ranchero sauce</p>
+                <p>POLLO – 9.95
+                        grilled chicken with
+                        smokey chipotle tomato
+                        sauce & avocado</p>
+                <p>AVOCADO – 10.95
+                        fried avocado, grilled corn
+                        salsa, pickled beet aioli†
+                        ,
+                        veggie slaw, cotija cheese,
+                        cilantro, pickled jalapeño
+                        (no crema, no lettuce)</p>
+                <h5>QUESADILLAS</h5>
+                <p>flour tortilla filled with monterey jack cheese & crisped
+                        on the griddle. Served with pico de gallo salsa.</p>
+                <p>CHEESE – 6.95</p>
+                <p>GRILLED – 10.95
+                        STEAK</p>
+                <p>HOUSEMADE – 8.95
+                        CHORIZO</p>
+                <p>add rajas to any quesadilla (sauteed peppers & onions) – 1.95</p>
+                <h5>ACOMPANAR</h5>
+                <p>RICE & BEANS – 3.95
+                        with crema fresca, cilantro & cotija cheese
+                        CORN CHIPS – 1.50
+                        HOUSE PICKLED JALAPEÑOS – .75 / 1.50
+                        GUACAMOLE – 2.25 / 4.50</p>
+                <h5>SALSAS</h5>
+                <p>PICO DE GALLO SALSA
+                        TAQUERERA SALSA
+                        GRILLED PINEAPPLE SALSITA </p>
+                <p>SMALL 1.25/LG 2.50 </p>
+                <h5>PARA LOS NINOS(kids menu)</h5>
+                <p>for little children - made with an 8” flour tortilla</p>
+                <p>CHEESE QUESADILLA – 3.95
+                        w/ organic black beans – 4.95
+                        w/ chicken or ground beef – 5.95</p>
+                <p>BEAN, CHEESE & RICE BURRITO – 4.95
+                        w/ chicken or ground beef – 5.95</p>
+                <p>GROUND BEEF & JACK CHEESE TACO – 3.95
+                        (crispy or soft shell)</p>
+                <h5>POSTRES</h5>
+                <p>KEY LIME PIE – 3.95
+                        COCONUT CUPCAKE – 3.95
+                        CHOCOLATE LAYER CAKE – 5.95</p>
+                <h5>Food Allergies:</h5>
+                <p>Many of the items on our menu contain or may come
+                        into contact with common allergens, including wheat,
+                        peanuts, soy, tree nuts, milk, eggs, fish and shellfish.
+                        If anyone in your party has a food allergy,
+                        please alert your server before ordering.
+                        While our staff is well-trained and will make every
+                        attempt to accommodate special requests, we cannot
+                        guarantee any of our menu items are 100% free of
+                        allergens, as cross-contamination is always a possibility
+                        given that our menu items are made from scratch, and
+                        our prep areas are exposed to all the foods we sell.
+                        We take food allergies very seriously at El Rayo and our
+                        primary concern is our customer’s safety. Please help
+                        us understand if you have a food allergy as opposed
+                        to a food intolerance. We will do everything we can to
+                        accommodate your dietary restrictions, but in the case of
+                        severe allergies, we may not be able to safely serve you.
+                        Thank you for understanding.
+                        F</p> -->
+            </div>
+
+        <h3 class="menu-title rounded">Scarborough Bar Menu<ion-icon name="arrow-dropdown"></ion-icon></h3>
+        <div class="menu-type">
+                <div class="menu-section">
+                    <h5 class="menu-section-title">ANTOJITOS</h5>
+                    <p class="meal">GOLDEN JET PINEAPPLE – 3.95</p>
+                    <p class="description">on a stick dusted with chile powder, salt & lime</p>
+                    <p class="meal">MEXICO CITY STYLE CORN ON THE COB – 4.95</p>
+                    <p class="description">basted with chipotle mayo & dusted with cotija cheese</p>
+                    <p class="meal">FRIED PLANTAINS – 5.95</p>
+                    <p class="description">with chipotle mayo</p>
+                    <p class="meal">QUESO DIP – 6.95</p>
+                    <p class="description">warm cheese dip with rajas topped with diced pickled jalapeños and served with corn chips</p>
+                    <p class="description">w/ housemade chorizo – 7.95</p>
+                    <p class="meal">PAPAS FRITAS – 4.95</p>
+                    <p class="description">fried Maine potatoes drizzled with garlic aioli†</p>
+                    <p class="meal">CHICKEN TAQUITOS – 8.95</p>
+                    <p class="description">three corn tortillas filled with rajas, jack cheese & chicken, rolled and fried. Topped with lettuce, crema, cotija, pico de gallo & avocado purée</p>
+                </div>
+                <div class="menu-section">
+                    <h5 class="menu-section-title">TACOS</h5>
+                    <p class="description">all tacos served on corn tortillas warmed on the griddle and garnished with fresh cilantro</p>
+                    <p class="meal">PESCADO – 4.95</p>
+                    <p class="description">grilled achiote seasoned fish fillet, sliced avocado, chipotle mayo & crunchy veggie slaw</p>
+                    <p class="meal">AL CARBON – 4.50</p>
+                    <p class="description"> char-grilled chicken with pico de gallo salsa, cotija cheese, shredded lettuce & radish</p>
+                    <p class="meal">BBQ PULLED PORK – 4.50</p>
+                    <p class="description">with coleslaw, cotija cheese & red onion escabeche</p>
+                    <p class="meal">TACO PLATE – 11.95</p>
+                    <p class="description">choice of any two tacos served with rice & organic black beans topped with crema, cotija & cilantro</p>
+                </div>
+                <div class="menu-section">
+                    <h5 class="menu-section-title">BURRITOS</h5>
+                    <p class="description">served on a flour tortilla</p>
+                    <p class="meal">POLLO – 9.95</p>
+                    <p class="description">citrus & cumin marinated
+                            chicken, rice, organic black
+                            beans, monterey jack
+                            cheese, housemade crema
+                            fresca, guacamole & smokey
+                            chipotle tomato sauce</p>
+                    <p class="meal">YUCATÁN – 10.95</p>
+                    <p class="description"> grilled achiote seasoned
+                            fish fillet, rice, monterey
+                            jack cheese, crunchy veggie
+                            slaw, avocado, our famous
+                            chipotle mayo & cilantro</p>
+                    <p class="meal">CARNITAS – 9.95</p>
+                    <p class="description">slow braised pork, rice,
+                            organic black beans,
+                            monterey jack cheese,
+                            housemade crema fresca,
+                            rajas & ranchero sauce</p>
+                </div>
+                <div class="menu-section">
+                    <h5 class="menu-section-title">ENSALADAS</h5>
+                    <p class="meal">FIESTA SALAD – 9.95</p>
+                    <p class="description"> romaine lettuce, red onion escabeche, jicama, sweet
+                            peppers, corn, tomatoes, cucumbers, cilantro, pepitas &
+                            radish. Garnished with</p>
+                    <p class="meal">FIESTA SALAD – 9.95</p>
+                    <p class="description">romaine lettuce, red onion escabeche, jicama, sweet
+                            peppers, corn, tomatoes, cucumbers, cilantro, pepitas &
+                            radish. Garnished withe</p>
+                    <p class="meal">TURN YOUR SALAD INTO A MEAL</p>
+                    <p class="description">w/ grilled chicken, grilled steak,
+                            fish or bbq pulled pork add 4.00
+                            w/ fried shrimp add 6.00</p>
+                </div>
+            </div>
+        <h3 class="menu-title rounded">Scarborough Catering Menu<ion-icon name="arrow-dropdown"></ion-icon></h3>
+        <div class="menu-type">
+                <div class="menu-section">
+                    <h5 class="menu-section-title">ANTOJITOS</h5>
+                    <p class="meal">GOLDEN JET PINEAPPLE – 3.95</p>
+                    <p class="description">on a stick dusted with chile powder, salt & lime</p>
+                    <p class="meal">MEXICO CITY STYLE CORN ON THE COB – 4.95</p>
+                    <p class="description">basted with chipotle mayo & dusted with cotija cheese</p>
+                    <p class="meal">FRIED PLANTAINS – 5.95</p>
+                    <p class="description">with chipotle mayo</p>
+                    <p class="meal">QUESO DIP – 6.95</p>
+                    <p class="description">warm cheese dip with rajas topped with diced pickled jalapeños and served with corn chips</p>
+                    <p class="description">w/ housemade chorizo – 7.95</p>
+                    <p class="meal">PAPAS FRITAS – 4.95</p>
+                    <p class="description">fried Maine potatoes drizzled with garlic aioli†</p>
+                    <p class="meal">CHICKEN TAQUITOS – 8.95</p>
+                    <p class="description">three corn tortillas filled with rajas, jack cheese & chicken, rolled and fried. Topped with lettuce, crema, cotija, pico de gallo & avocado purée</p>
+                </div>
+                <div class="menu-section">
+                    <h5 class="menu-section-title">TACOS</h5>
+                    <p class="description">all tacos served on corn tortillas warmed on the griddle and garnished with fresh cilantro</p>
+                    <p class="meal">PESCADO – 4.95</p>
+                    <p class="description">grilled achiote seasoned fish fillet, sliced avocado, chipotle mayo & crunchy veggie slaw</p>
+                    <p class="meal">AL CARBON – 4.50</p>
+                    <p class="description"> char-grilled chicken with pico de gallo salsa, cotija cheese, shredded lettuce & radish</p>
+                    <p class="meal">BBQ PULLED PORK – 4.50</p>
+                    <p class="description">with coleslaw, cotija cheese & red onion escabeche</p>
+                    <p class="meal">TACO PLATE – 11.95</p>
+                    <p class="description">choice of any two tacos served with rice & organic black beans topped with crema, cotija & cilantro</p>
+                </div>
+                <div class="menu-section">
+                    <h5 class="menu-section-title">BURRITOS</h5>
+                    <p class="description">served on a flour tortilla</p>
+                    <p class="meal">POLLO – 9.95</p>
+                    <p class="description">citrus & cumin marinated
+                            chicken, rice, organic black
+                            beans, monterey jack
+                            cheese, housemade crema
+                            fresca, guacamole & smokey
+                            chipotle tomato sauce</p>
+                    <p class="meal">YUCATÁN – 10.95</p>
+                    <p class="description"> grilled achiote seasoned
+                            fish fillet, rice, monterey
+                            jack cheese, crunchy veggie
+                            slaw, avocado, our famous
+                            chipotle mayo & cilantro</p>
+                    <p class="meal">CARNITAS – 9.95</p>
+                    <p class="description">slow braised pork, rice,
+                            organic black beans,
+                            monterey jack cheese,
+                            housemade crema fresca,
+                            rajas & ranchero sauce</p>
+                </div>
+                <div class="menu-section">
+                    <h5 class="menu-section-title">ENSALADAS</h5>
+                    <p class="meal">FIESTA SALAD – 9.95</p>
+                    <p class="description"> romaine lettuce, red onion escabeche, jicama, sweet
+                            peppers, corn, tomatoes, cucumbers, cilantro, pepitas &
+                            radish. Garnished with</p>
+                    <p class="meal">FIESTA SALAD – 9.95</p>
+                    <p class="description">romaine lettuce, red onion escabeche, jicama, sweet
+                            peppers, corn, tomatoes, cucumbers, cilantro, pepitas &
+                            radish. Garnished withe</p>
+                    <p class="meal">TURN YOUR SALAD INTO A MEAL</p>
+                    <p class="description">w/ grilled chicken, grilled steak,
+                            fish or bbq pulled pork add 4.00
+                            w/ fried shrimp add 6.00</p>
+                </div>
+            </div>
+        <h3 class="menu-title rounded">Scarborough Take-Out Menu<ion-icon name="arrow-dropdown"></ion-icon></h3>
+        <div class="menu-type">
+                <div class="menu-section">
+                    <h5 class="menu-section-title">ANTOJITOS</h5>
+                    <p class="meal">GOLDEN JET PINEAPPLE – 3.95</p>
+                    <p class="description">on a stick dusted with chile powder, salt & lime</p>
+                    <p class="meal">MEXICO CITY STYLE CORN ON THE COB – 4.95</p>
+                    <p class="description">basted with chipotle mayo & dusted with cotija cheese</p>
+                    <p class="meal">FRIED PLANTAINS – 5.95</p>
+                    <p class="description">with chipotle mayo</p>
+                    <p class="meal">QUESO DIP – 6.95</p>
+                    <p class="description">warm cheese dip with rajas topped with diced pickled jalapeños and served with corn chips</p>
+                    <p class="description">w/ housemade chorizo – 7.95</p>
+                    <p class="meal">PAPAS FRITAS – 4.95</p>
+                    <p class="description">fried Maine potatoes drizzled with garlic aioli†</p>
+                    <p class="meal">CHICKEN TAQUITOS – 8.95</p>
+                    <p class="description">three corn tortillas filled with rajas, jack cheese & chicken, rolled and fried. Topped with lettuce, crema, cotija, pico de gallo & avocado purée</p>
+                </div>
+                <div class="menu-section">
+                    <h5 class="menu-section-title">TACOS</h5>
+                    <p class="description">all tacos served on corn tortillas warmed on the griddle and garnished with fresh cilantro</p>
+                    <p class="meal">PESCADO – 4.95</p>
+                    <p class="description">grilled achiote seasoned fish fillet, sliced avocado, chipotle mayo & crunchy veggie slaw</p>
+                    <p class="meal">AL CARBON – 4.50</p>
+                    <p class="description"> char-grilled chicken with pico de gallo salsa, cotija cheese, shredded lettuce & radish</p>
+                    <p class="meal">BBQ PULLED PORK – 4.50</p>
+                    <p class="description">with coleslaw, cotija cheese & red onion escabeche</p>
+                    <p class="meal">TACO PLATE – 11.95</p>
+                    <p class="description">choice of any two tacos served with rice & organic black beans topped with crema, cotija & cilantro</p>
+                </div>
+                <div class="menu-section">
+                    <h5 class="menu-section-title">BURRITOS</h5>
+                    <p class="description">served on a flour tortilla</p>
+                    <p class="meal">POLLO – 9.95</p>
+                    <p class="description">citrus & cumin marinated
+                            chicken, rice, organic black
+                            beans, monterey jack
+                            cheese, housemade crema
+                            fresca, guacamole & smokey
+                            chipotle tomato sauce</p>
+                    <p class="meal">YUCATÁN – 10.95</p>
+                    <p class="description"> grilled achiote seasoned
+                            fish fillet, rice, monterey
+                            jack cheese, crunchy veggie
+                            slaw, avocado, our famous
+                            chipotle mayo & cilantro</p>
+                    <p class="meal">CARNITAS – 9.95</p>
+                    <p class="description">slow braised pork, rice,
+                            organic black beans,
+                            monterey jack cheese,
+                            housemade crema fresca,
+                            rajas & ranchero sauce</p>
+                </div>
+                <div class="menu-section">
+                    <h5 class="menu-section-title">ENSALADAS</h5>
+                    <p class="meal">FIESTA SALAD – 9.95</p>
+                    <p class="description"> romaine lettuce, red onion escabeche, jicama, sweet
+                            peppers, corn, tomatoes, cucumbers, cilantro, pepitas &
+                            radish. Garnished with</p>
+                    <p class="meal">FIESTA SALAD – 9.95</p>
+                    <p class="description">romaine lettuce, red onion escabeche, jicama, sweet
+                            peppers, corn, tomatoes, cucumbers, cilantro, pepitas &
+                            radish. Garnished withe</p>
+                    <p class="meal">TURN YOUR SALAD INTO A MEAL</p>
+                    <p class="description">w/ grilled chicken, grilled steak,
+                            fish or bbq pulled pork add 4.00
+                            w/ fried shrimp add 6.00</p>
+                </div>
+            </div>
+    </div>
+    </div>
+
+    <div class="container">
+            <div class="row">
+    
+                <div class="email-list col-md p-4 m-2">
+                        <h5 class="text-center mb-3">Specials by Email</h5>
+                        <p>Please enter your email address below to sign up for our mailing list.</p>
+                        <form>
+                            <div class="form-group mb-3">
+                                <label for="exampleInputEmail1" class="mb-0">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="someone@something.com">
+                            </div>
+                                <button type="Sign Up" class="btn btn-primary">Submit</button>
+                            </form>
+                </div>
+                <!-- <div class="reviews col-md p-4 m-2">
+                    <h5 class="text-center mb-3">Reviews</h5>
+                    <p>See what everyone is saying about us! </p>
+                </div> -->
+                
+            </div>
+        </div>
+    
+
+    <footer class="mt-5 p-5">
+        <div class="d-flex flex-column flex-md-row">
+            <!-- <div class="small-logo">
+                <img src="el_rayo_logo_bw.png">
+            </div> -->
+            <div class="p-3">
+                    <h5>Scarborough</h5>
+                    <div class="d-flex contact-box">
+                        <ion-icon name="pin"></ion-icon>
+                        <p>245 US Route One <br> Scarborough, Maine</p>
+                    </div>
+                    <div class="d-flex contact-box">
+                        <ion-icon name="call"></ion-icon>
+                        <p>207-883-TACO </p>
+                    </div>
+                    <div class="d-flex contact-box">
+                        <ion-icon name="time"></ion-icon>
+                        <p>Everyday from 11am-9pm</p>
+                    </div>
+
+            </div>
+            <div class="p-3">
+                    <h5>Portland</h5>
+                    <div class="d-flex contact-box">
+                        <ion-icon name="pin"></ion-icon>
+                        <p>26 Free Street <br> Portland, Maine</p>
+                    </div>
+                    <div class="d-flex contact-box">
+                        <ion-icon name="call"></ion-icon>
+                        <p>207-780-TACO </p>
+                    </div>
+                    <div class="d-flex contact-box">
+                        <ion-icon name="time"></ion-icon>
+                        <p>Everyday from 7am-9pm</p>
+                    </div> 
+
+            </div>
+            
+        </div>
+
+        <div class="d-flex mt-3">
+            <p class="mr-auto">info@elrayo.com</p>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+            <ion-icon name="logo-flickr"></ion-icon>
+
+        </div>
+    </footer>
+
+    <!-- <footer class="p-5 mt-5">
+        <div class="container">
+                <div class="row">
+                        <div class="col-md-2">
+                            <img src="el_rayo_logo_bw.png">
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Scarborough</h5>
+                            <div class="d-flex contact-box">
+                                <ion-icon name="pin"></ion-icon>
+                                <p>245 US Route One <br> Scarborough, Maine</p>
+                            </div>
+                            <div class="d-flex contact-box">
+                                <ion-icon name="call"></ion-icon>
+                                <p>(207) 883-TACO </p>
+                            </div>
+                            <div class="d-flex contact-box">
+                                <ion-icon name="time"></ion-icon>
+                                <p>Everyday from 11am-9pm</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <h5>Portland</h5>
+                            <div class="d-flex contact-box">
+                                <ion-icon name="pin"></ion-icon>
+                                <p>26 Free Street <br> Portland, Maine</p>
+                            </div>
+                            <div class="d-flex contact-box">
+                                <ion-icon name="call"></ion-icon>
+                                <p>(207) 780-TACO </p>
+                            </div>
+                            <div class="d-flex contact-box">
+                                <ion-icon name="time"></ion-icon>
+                                <p>Everyday from 7am-9pm</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p>info@elrayo.com</p>
+                        <p>icons for social media</p>
+                    </div>
+        </div>
+    </footer> -->
+
+
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
